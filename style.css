@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: #ffff;
+}
+
+body {
+    background-color: #272829;
+}
+
+.side {
+    background-color: #6675FA;
+    width: 291px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    backface-visibility: hidden;
+    /* z-index: 100; */
+    flex-wrap: wrap;
+}
+
+.side:hover {
+    transform: rotateY(180deg);
+
+}
+
+.devi {
+    color: #ffff;
+    font-size: 32px;
+    perspective: 1000px;
+    text-shadow: 0px 0px 10px #ffff;
+}
+
+.mehboob-pic {
+    height: 192px;
+    width: 192px;
+
+}
+
+.mehboob-text {
+    font-size: 24px;
+    text-shadow: 0px 0px 10px #ffff;
+}
+
+.side-2 {
+    background-color: #6675FA;
+    width: 291px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    /* transform: 0.6s;
+    perspective: 1000px;
+    transform-style: preserve-3d; */
+    backface-visibility: hidden;
+    flex-wrap: wrap;
+}
+
+.side-2:hover {
+    transform: rotateY(180deg);
+}
+
+.tar {
+    color: #ffff;
+    font-size: 32px;
+    text-shadow: 0px 0px 10px #ffff;
+}
+
+.tar-pic {
+    height: 192px;
+    width: 192px;
+}
+
+.tar-text {
+    font-size: 24px;
+    text-shadow: 0px 0px 10px #ffff;
+}
